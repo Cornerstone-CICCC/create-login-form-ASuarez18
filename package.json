@@ -1,0 +1,24 @@
+{
+  "name": "create-login-form-asuarez18",
+  "version": "1.0.0",
+  "description": "In this challenge, you will be creating a login form.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=5500",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornerstone-CICCC/create-login-form-ASuarez18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cornerstone-CICCC/create-login-form-ASuarez18/issues"
+  },
+  "homepage": "https://github.com/Cornerstone-CICCC/create-login-form-ASuarez18#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

@@ -1,11 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <link rel="icon" href="./images/favicon.ico" />
+
+    <title>camp-in Login</title>
   </head>
-  <body></body>
+  <body>
+    <header class="container">
+      <img src="./images/logo.svg" alt="camp-in logo" class="logo" />
+    </header>
+    <main>
+      <div class="container">
+        <div class="left">
+          <div class="login">
+            <div class="login-info">
+              <div class="login-text">
+                <img src="" alt="" class="login-logo" />
+                <h3 class="login-header-text">Login</h3>
+              </div>
+              <p class="heading-text">Insert your information below</p>
+            </div>
+            <form action="" class="form">
+              <div class="input-row">
+                <label for="email">E-mail</label>
+                <div class="input-wrapper">
+                  <!-- TODO ::before (mail icon) -->
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="email"
+                    placeholder="Type your email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="input-row">
+                <label for="password">Password</label>
+                <div class="input-wrapper">
+                  <!-- TODO ::before (lock icon) -->
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    class="password"
+                    placeholder="Type your password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    required
+                  />
+                  <!-- ? Turn  to button or image-- -->
+                  <div class="toggle-password-visibility"></div>
+                </div>
+              </div>
+              <div class="input-row">
+                <div class="remind-me">
+                  <input
+                    type="checkbox"
+                    name="remind"
+                    class="remind"
+                    id="remind"
+                  />
+                  <label for="remind">Remind me</label>
+                </div>
+                <div class="forgot-password">
+                  <a href="" id="forgot-password-link">Forgot my password</a>
+                </div>
+              </div>
+              <button type="submit" class="login-btn" id="login-btn">
+                LOGIN
+              </button>
+              <div class="input-row">
+                <a href="" id="no-account-link"
+                  >Don't have an account? Sign up!</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="right">
+          <img
+            src="./images/side-image.jpg"
+            srcset="./images/side-image.jpg 1x, ./images/side-image-2x.jpg 2x"
+            alt="Description of your image"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
