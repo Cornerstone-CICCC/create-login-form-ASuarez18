@@ -275,6 +275,9 @@ header img {
   .right {
     display: none;
   }
+  header.container {
+    width: 80%;
+  }
   .container {
     width: 100%;
   }
